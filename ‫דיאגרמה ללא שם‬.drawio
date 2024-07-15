@@ -1,9 +1,57 @@
-<mxfile host="app.diagrams.net" modified="2024-07-15T08:19:35.184Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" version="24.6.5" etag="KNPz3cY9W43K2R2b4Rxq" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-15T10:50:59.173Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="wEs2dVRT6m_8zRvLirvy" version="24.6.5" type="github">
   <diagram name="‫עמוד-1‬" id="5GTb9bdldP5s_-n2coXt">
-    <mxGraphModel>
+    <mxGraphModel dx="1434" dy="1925" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="pZS6WHl0tYRCnsfBYl6C-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pZS6WHl0tYRCnsfBYl6C-1" target="pZS6WHl0tYRCnsfBYl6C-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pZS6WHl0tYRCnsfBYl6C-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1" source="pZS6WHl0tYRCnsfBYl6C-1" target="pZS6WHl0tYRCnsfBYl6C-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pZS6WHl0tYRCnsfBYl6C-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1" source="pZS6WHl0tYRCnsfBYl6C-1" target="pZS6WHl0tYRCnsfBYl6C-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pZS6WHl0tYRCnsfBYl6C-1" value="Decrypted shared preferences" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pZS6WHl0tYRCnsfBYl6C-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1" source="pZS6WHl0tYRCnsfBYl6C-2" target="pZS6WHl0tYRCnsfBYl6C-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pZS6WHl0tYRCnsfBYl6C-2" value="keystore" style="ellipse;whiteSpace=wrap;html=1;rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="140" y="-10" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pZS6WHl0tYRCnsfBYl6C-14" value="1024, 50, 64, HashAlgorithm.SHA512" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1" source="pZS6WHl0tYRCnsfBYl6C-6" target="pZS6WHl0tYRCnsfBYl6C-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pZS6WHl0tYRCnsfBYl6C-6" value="DB key" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="334" y="60" width="96" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="pZS6WHl0tYRCnsfBYl6C-12" value="Sha256Digest" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1" source="pZS6WHl0tYRCnsfBYl6C-9" target="pZS6WHl0tYRCnsfBYl6C-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pZS6WHl0tYRCnsfBYl6C-9" value="DB values key" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="334" y="190" width="96" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="pZS6WHl0tYRCnsfBYl6C-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1" source="pZS6WHl0tYRCnsfBYl6C-11" target="pZS6WHl0tYRCnsfBYl6C-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pZS6WHl0tYRCnsfBYl6C-11" value="DB values key" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="670" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pZS6WHl0tYRCnsfBYl6C-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1" source="pZS6WHl0tYRCnsfBYl6C-13" target="pZS6WHl0tYRCnsfBYl6C-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pZS6WHl0tYRCnsfBYl6C-13" value="decrypted DB" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="670" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pZS6WHl0tYRCnsfBYl6C-15" value="decrypted values (Tokens)" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+          <mxGeometry x="870" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pZS6WHl0tYRCnsfBYl6C-21" value="Find this values using the SQLcipher script" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.calloutArrow;dy=10;dx=20;notch=60;arrowHead=10;rotation=90;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" vertex="1" parent="1">
+          <mxGeometry x="430" y="-60" width="250" height="50" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
