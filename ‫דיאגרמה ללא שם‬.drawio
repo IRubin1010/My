@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-15T10:50:59.173Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="wEs2dVRT6m_8zRvLirvy" version="24.6.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-15T21:45:37.456Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="-izC0361QZwRjkoy5tIQ" version="24.6.5" type="github">
   <diagram name="‫עמוד-1‬" id="5GTb9bdldP5s_-n2coXt">
     <mxGraphModel dx="1434" dy="1925" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -34,7 +34,7 @@
         <mxCell id="pZS6WHl0tYRCnsfBYl6C-9" value="DB values key" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="334" y="190" width="96" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="pZS6WHl0tYRCnsfBYl6C-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1" source="pZS6WHl0tYRCnsfBYl6C-11" target="pZS6WHl0tYRCnsfBYl6C-15">
+        <mxCell id="pZS6WHl0tYRCnsfBYl6C-18" value="AES-GCM" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1" source="pZS6WHl0tYRCnsfBYl6C-11" target="pZS6WHl0tYRCnsfBYl6C-15">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="pZS6WHl0tYRCnsfBYl6C-11" value="DB values key" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
@@ -51,6 +51,15 @@
         </mxCell>
         <mxCell id="pZS6WHl0tYRCnsfBYl6C-21" value="Find this values using the SQLcipher script" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.calloutArrow;dy=10;dx=20;notch=60;arrowHead=10;rotation=90;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" vertex="1" parent="1">
           <mxGeometry x="430" y="-60" width="250" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="pZS6WHl0tYRCnsfBYl6C-23" value="" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Key_Vaults.svg;" vertex="1" parent="1">
+          <mxGeometry x="358" y="40" width="48" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="pZS6WHl0tYRCnsfBYl6C-24" value="" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Key_Vaults.svg;" vertex="1" parent="1">
+          <mxGeometry x="706" y="180" width="48" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="pZS6WHl0tYRCnsfBYl6C-25" value="IV is the first 12 bytes&lt;br&gt;Tag is the last 32 bytes" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=4;" vertex="1" parent="1">
+          <mxGeometry x="800" y="250" width="153" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
